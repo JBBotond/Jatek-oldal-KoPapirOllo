@@ -1,0 +1,119 @@
+
+body {
+    font-family: sans-serif;
+}
+body .focim h1 {
+    font-weight: 900;
+    font-size: xx-large;
+    font-style: italic;
+    background: -webkit-linear-gradient(#2ee725, #78d173);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px dotted;
+    border-radius: 10px;
+    padding: 10px;
+}
+body .fegyverek{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+body .fegyverek img{
+    width: 300px;
+    height: 300px;
+    
+}
+body .fegyverek img:hover{
+    cursor: grab;
+}
+.gepValasz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gepValasz h2 {
+    text-align: center;
+    margin: 0;
+}
+.gepValasz img{
+    width: 300px;
+    height: 300px;
+}
+.gepValasz img:hover{
+    cursor: not-allowed;
+}
+.focim .eredmeny p {
+    font-size: x-large;
+    font-family: sans-serif;
+    font-style: italic;
+}
+@media (max-width: 1024px) {
+    .fegyverek #rock, #paper, #scissors {
+        width: 100px;
+        height: 100px;
+    }
+    .fegyverek {
+        flex-direction: column;
+        align-items: center;
+    }
+    .gepValasz #gep {
+        width: 100px;
+        height: 100px;
+    }
+}
+body header .fejlec  {
+    display: flex;
+    background: rgb(85, 227, 85);
+    height: 120px;
+    width: 100%vw;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.fejlec p {
+    font-size: xx-large;
+    background: rgb(85, 227, 85);
+}
+html {
+    margin: 0;
+    border: none;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+.jatekAblak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+}
+section .reklamAblak {
+    background:linear-gradient(black,grey);
+    width: 200px;
+    height: 60vw;
+    margin: 30px;
+}
+.jatekAblak {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid black;
+    width: 60vw;
+    margin: 30px;
+}
+#magaACim h1 {
+    font-weight: 900;
+    font-size: xx-large;
+    font-style: italic;
+    background: -webkit-linear-gradient(#2ee725, #78d173);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px dotted;
+    border-radius: 10px;
+    padding: 10px;
+}
